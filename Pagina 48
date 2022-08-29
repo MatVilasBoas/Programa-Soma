@@ -1,0 +1,8 @@
+public static void Main (string[] args)
+        {
+            Double num1, num2, soma;
+            num1 = Double.Parse(Console.ReadLine());
+            num2 = Double.Parse(Console.ReadLine());
+            soma = num1 + num2;
+            Console.WriteLine(soma);
+        }
